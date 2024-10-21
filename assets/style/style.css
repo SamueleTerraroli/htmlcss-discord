@@ -28,6 +28,11 @@ a {
   color: #303231 ;
 }
 
+img {
+  max-width: 100%;
+  
+}
+
 .debug{
   min-height: 10px;
 }
@@ -56,16 +61,11 @@ a {
 
 .container-70{
   width: 70%;
-  height: 200px; /*debug*/
-  border: 1px solid black; /*debug*/
-  background-color: chocolate; /*debug*/
 
 }
 .container-30{
   width: 30%;
-  height: 200px; /*debug*/
-  border: 1px solid black; /*debug*/
-  background-color: darkred; /*debug*/
+
 
 }
 .container-20{
@@ -180,6 +180,15 @@ header .header-bottom .col .button.black {
 
 main section {
   padding: 150px 0;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+p{
+  font-weight: bold;
 }
 
 /*****SECTION DISPARI*****/
