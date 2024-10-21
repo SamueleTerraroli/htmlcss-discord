@@ -216,7 +216,6 @@ main .dove, main .tecnology {
   background-color: darkgrey;
 }
 
-
 /*****SECTION PARI*****/
 /*****TECNOLOGY*****/
 main .tecnology{
@@ -257,6 +256,7 @@ footer .footer-top .container.row {
 footer h3{
   padding: 0;
   color: #8ea1e3;
+  background-image: none;
 }
 
 .bandiera {
