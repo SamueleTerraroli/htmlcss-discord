@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  min-height: 10px;
+  border: 1px solid black;
+}
+
+.row{
+  display: flex;
+
+}
+
+.container{
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: cadetblue; /*debug*/
+  border: 1px solid black; /*debug*/
+}
+
+.container-small {
+  width: 25%;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(95, 160, 127); /*debug*/
+  border: 1px solid black; /*debug*/
+  
+}
+
+.container-70{
+  width: 70%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: chocolate; /*debug*/
+
+}
+.container-30{
+  width: 30%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: darkred; /*debug*/
+
+}
+.container-20{
+  width: 20%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: darkred; /*debug*/
+
+}
+.container-15{
+  width: 15%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: darkred; /*debug*/
+
+}
+
+section {
+  padding: 20px 0; /*debug*/
+}
+
+header {
+  /*bacground-image*/
+  background-color: rgba(255, 0, 0, 0.2); /*debug*/
+}
+
+/**********HEADER-TOP**********/
+
+.header-top{
+  padding: 10px 0;
+}
+
+/*****NAVBAR*****/
+
+header .header-top .row.container{
+  justify-content: space-between;
+  padding: 10px 0px;
+
+}
+header .header-top .row.container .col{
+  background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
+  color: white;
+  padding: 5px 10px
+}
+
+ul {
+  list-style: none;
+  padding: 0 10px;
+  display: flex;
+}
+
+li{
+  display: inline-block;
+}
+
+header .header-top .row .col nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 5px 10px;
+  border: 1px solid black; /*debug*/
+}
+header .header-top .row .col nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*****NAVBAR*****/
+/**********HEADER-TOP**********/
+
+/**********HEADER-BOTTOM**********/
+
+header h1 {
+  text-align: center;
+}
+
+header .header-bottom .row.container-small.testo{
+  justify-content: center;
+  align-items: center;
+  min-height: 100px; /*debug*/
+}
+header .header-bottom .row.container-small.buttons{
+  justify-content: space-around;
+  padding: 10px 0px;
+  
+}
+header .header-bottom .row.container-small.buttons .col{
+  background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
+  color: white;
+  padding: 5px 10px
+}
+/**********HEADER-BOTTOM**********/
+
+
+/**********MAIN**********/
+
+main section {
+  padding: 150px 0;
+}
+
+/*****SECTION DISPARI*****/
+main .luogo, main .community {
+  background-color: white;
+}
+
+main .luogo .row.container, main .community .row.container {
+  gap: 5%;
+}
+/*****SECTION DISPARI*****/
+
+
+/*****SECTION PARI*****/
+main .dove, main .tecnology {
+  background-color: darkgrey;
+}
+
+main .dove .row.container {
+  gap: 5%;
+}
+/*****SECTION PARI*****/
+/*****TECNOLOGY*****/
+main .tecnology .row.container.testo{
+  justify-content: center;
+  align-items: center;
+  height: 100px; /*debug*/
+}
+main .tecnology .row.container.imm{
+  
+  height: 100px; /*debug*/
+  background-color: blueviolet; /*debug*/
+}
+main .tecnology .row.container-small.testo{
+  
+  height: 100px; /*debug*/
+  background-color: rgb(192, 226, 43); /*debug*/
+  justify-content: center;
+  align-items: center;
+}
+main .tecnology .row.container-small.buttons{
+  justify-content: center;
+  padding: 10px 0px;
+  
+}
+main .tecnology .row.container-small.buttons .col{
+  background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
+  color: white;
+  padding: 5px 10px
+  
+}
+/*****TECNOLOGY*****/
+
+/**********MAIN**********/
+/**********FOOTER**********/
+/****FOOTER-TOP*****/
+footer {
+  background-color: darkslategray ;
+}
+
+footer .footer-top .row.container {
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+
+}
+/****FOOTER-TOP*****/
+
+/****FOOTER-BOTTOM*****/
+footer .footer-bottom .row.container{
+  justify-content: space-between;
+  padding: 10px 0px;
+
+}
+footer .footer-bottom .row.container .col{
+  background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
+  color: white;
+  padding: 5px 10px
+
+}
