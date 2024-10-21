@@ -3,6 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  color: #303231 ;
+  font-family: sans-serif;
+}
+
+section {
+  padding: 20px 0; /*debug*/
+}
+
+header {
+  height: 480px;
+}
+
+a {
+  text-decoration: none;
+  color: #303231 ;
+}
 
 .debug{
   min-height: 10px;
@@ -18,8 +35,8 @@
   width: 80%;
   max-width: 1500px;
   margin: 0 auto;
-  background-color: cadetblue; /*debug*/
-  border: 1px solid black; /*debug*/
+  /*background-color: cadetblue; debug*/
+  /*border: 1px solid black; debug*/
 }
 
 .container-small {
@@ -27,7 +44,7 @@
   max-width: 480px;
   margin: 0 auto;
   text-align: center;
-  background-color: rgb(95, 160, 127); /*debug*/
+  /*background-color: rgb(95, 160, 127); debug*/
   border: 1px solid black; /*debug*/
   
 }
@@ -61,33 +78,31 @@
 
 }
 
-section {
-  padding: 20px 0; /*debug*/
+.button{
+  padding: 15px 20px;
+  background-color: #fcfffe ;
+  border-radius: 25px;
 }
 
-header {
-  /*bacground-image*/
-  background-color: rgba(255, 0, 0, 0.2); /*debug*/
+.button:hover{
+  background-color: darkgrey;
 }
+
 
 /**********HEADER-TOP**********/
 
 .header-top{
-  padding: 10px 0;
+  height: 20% ;
+  background-color: #3160e1;
 }
 
 /*****NAVBAR*****/
 
 header .header-top .row.container{
   justify-content: space-between;
-  padding: 10px 0px;
+  align-items: center;
+height: 100%;
 
-}
-header .header-top .row.container .col{
-  background-color: blue; /*debug*/
-  border: 1px solid black; /*debug*/
-  color: white;
-  padding: 5px 10px
 }
 
 ul {
@@ -105,7 +120,7 @@ header .header-top .row .col nav ul li a {
   text-decoration: none;
   margin: 0 20px;
   padding: 5px 10px;
-  border: 1px solid black; /*debug*/
+  /*border: 1px solid black; debug*/
 }
 header .header-top .row .col nav ul li a:hover {
   text-decoration: underline;
