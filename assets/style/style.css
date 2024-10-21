@@ -13,11 +13,13 @@ section {
 }
 
 header {
-  padding: 400px 0;
+  padding: 200px 0;
   background-image: url(../img/jumbo.png);
   height: 100%;
+  width: 100%;
   background-position: center;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fbfdff;
 }
 
@@ -28,7 +30,6 @@ a {
 
 .debug{
   min-height: 10px;
-  border: 1px solid black;
 }
 
 .row{
@@ -50,7 +51,6 @@ a {
   margin: 0 auto;
   text-align: center;
   /*background-color: rgb(95, 160, 127); debug*/
-  border: 1px solid black; /*debug*/
   
 }
 
@@ -92,6 +92,10 @@ a {
 
 .button:hover{
   background-color: darkgrey;
+}
+
+.col{
+  display: inline-block;
 }
 
 
@@ -143,27 +147,31 @@ header .header-top .row .col nav ul li a:hover {
 
 header h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 header .header-bottom{
-
+text-align: center;
+}
+header .header-bottom .testo{
+  width: 60%;
+  max-width: 600px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 60px 0;
+  font-weight: bold;
 }
 
-header .header-bottom .row.container-small.testo{
-  justify-content: center;
-  align-items: center;
-  min-height: 100px; /*debug*/
-}
 header .header-bottom .row.container-small.buttons{
   justify-content: space-around;
   padding: 10px 0px;
   
 }
-header .header-bottom .row.container-small.buttons .col{
-  background-color: blue; /*debug*/
-  border: 1px solid black; /*debug*/
-  color: white;
-  padding: 5px 10px
+header .header-bottom .col .button.black {
+  background-color: #232729;
+  color: #ffffff ;
+
 }
 /**********HEADER-BOTTOM**********/
 
