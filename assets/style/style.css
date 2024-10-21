@@ -8,9 +8,7 @@ body{
   font-family: sans-serif;
 }
 
-section {
-  padding: 20px 0; /*debug*/
-}
+
 
 header {
   padding: 200px 0;
@@ -33,10 +31,6 @@ img {
   
 }
 
-.debug{
-  min-height: 10px;
-}
-
 .row{
   display: flex;
 
@@ -46,8 +40,6 @@ img {
   width: 80%;
   max-width: 1500px;
   margin: 0 auto;
-  /*background-color: cadetblue; debug*/
-  /*border: 1px solid black; debug*/
 }
 
 .container-small {
@@ -55,8 +47,6 @@ img {
   max-width: 480px;
   margin: 0 auto;
   text-align: center;
-  /*background-color: rgb(95, 160, 127); debug*/
-  
 }
 
 .container-70{
@@ -131,7 +121,6 @@ header .header-top .row .col nav ul li a {
   text-decoration: none;
   margin: 0 20px;
   padding: 5px 10px;
-  /*border: 1px solid black; debug*/
 }
 header .header-top .row .col nav ul li a:hover {
   text-decoration: underline;
@@ -213,7 +202,7 @@ main .luogo, main .community {
 
 /*****SECTION PARI*****/
 main .dove, main .tecnology {
-  background-color: darkgrey;
+  background-color: #f6f6f6;
 }
 
 /*****SECTION PARI*****/
@@ -241,12 +230,14 @@ main .tecnology div .button{
 /****FOOTER-TOP*****/
 
 footer {
-  background-color: #232729;
+  background-color: #23272a;
   color: #fbfdff;
+  padding: 50px 0;
 }
 
 footer .footer-top {
   border-bottom: 1px solid white;
+  padding-bottom: 50px;
 }
 
 footer .footer-top .container.row {
@@ -295,6 +286,10 @@ footer a:hover {
 }
 /****FOOTER-TOP*****/
 /****FOOTER-BOTTOM*****/
+footer .footer-bottom{
+  padding: 50px 0;
+}
+
 footer .footer-bottom .container.row {
   justify-content: space-between;
 }
