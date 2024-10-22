@@ -243,6 +243,11 @@ footer .footer-top .container.row {
   justify-content: space-between;
 }
 
+footer .footer-top .container.row .container-20 .social ul li {
+  display: inline-block;
+
+}
+
 footer h3{
   padding: 0;
   color: #8ea1e3;
