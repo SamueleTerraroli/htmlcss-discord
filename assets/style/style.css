@@ -235,12 +235,12 @@ footer {
 }
 
 footer .footer-top {
-  border-bottom: 1px solid white;
   padding-bottom: 50px;
 }
 
 footer .footer-top .container.row {
   justify-content: space-between;
+  border-bottom: 1px solid white;
 }
 
 footer .footer-top .container.row .container-20 .social ul li {
