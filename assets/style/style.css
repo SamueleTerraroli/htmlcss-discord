@@ -35,7 +35,7 @@ img {
   display: flex;
 
 }
-
+/*******CONTAINER*******/
 .container{
   width: 80%;
   max-width: 1500px;
@@ -65,9 +65,8 @@ img {
 }
 .container-10{
   width: 10%;
-
-
 }
+/*******CONTAINER*******/
 
 .button{
   display: inline-block;
@@ -78,7 +77,7 @@ img {
 }
 
 .button:hover{
-  background-color: darkgrey;
+  opacity: 0.9;
 }
 
 .col{
@@ -298,3 +297,4 @@ footer .button{
   background-color: #8ea1e3;
   color: white;
 }
+
